@@ -4,10 +4,11 @@ from setuptools import Extension, find_packages, setup
 
 readme_file = Path(__file__).parent / 'README.md'
 with readme_file.open() as f:
+
     long_description = f.read()
 
 setup(
-    name='zipfile-deflate64',
+    name='zipfile_deflate64_macos',
     description="Extract Deflate64 ZIP archives with Python's zipfile API.",
     long_description=long_description,
     long_description_content_type='text/markdown',

@@ -3,6 +3,10 @@
 
 Extract Deflate64 ZIP archives with Python's `zipfile` API.
 
+
+> **⚠️ Note:** This is a fork of zipfile_deflate64 (Apache 2.0) with updated zlib 1.3.1 for macOS build fix.
+
+
 ## Installation
 ```bash
 pip install zipfile-deflate64
