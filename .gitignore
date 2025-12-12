@@ -195,4 +195,7 @@ dmypy.json
 # profiling data
 .prof
 
+.DS_Store
+.idea/
+
 # End of https://www.toptal.com/developers/gitignore/api/c,python
